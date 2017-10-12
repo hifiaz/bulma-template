@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.0/css/bulma.min.css">
+  </head>
+  <body>
+    <nav class="navbar is-transparent is-dark">
+        <div class="container">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="http://bulma.io">
+            <img src="http://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
+            </a>
+
+            <a class="navbar-item is-hidden-desktop" href="#" target="_blank">
+            <span class="icon" style="color: #333;">
+                <i class="fa fa-lg fa-github"></i>
+            </span>
+            </a>
+
+            <a class="navbar-item is-hidden-desktop" href="#" target="_blank">
+            <span class="icon" style="color: #55acee;">
+                <i class="fa fa-lg fa-twitter"></i>
+            </span>
+            </a>
+
+            <div class="navbar-burger burger" data-target="navMenuTransparentExample">
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
+        </div>
+        <div id="navMenuTransparentExample" class="navbar-menu">
+
+            <div class="navbar-end">
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link  is-active" href="#">
+                    Docs
+                    </a>
+                    <div class="navbar-dropdown is-boxed">
+                    <a class="navbar-item " href="#">
+                        Overview
+                    </a>
+                    <a class="navbar-item " href="#">
+                        Modifiers
+                    </a>
+                    <a class="navbar-item " href="#">
+                        Columns
+                    </a>
+                    <a class="navbar-item " href="#">
+                        Layout
+                    </a>
+                    <a class="navbar-item " href="#">
+                        Form
+                    </a>
+                    <a class="navbar-item " href="#">
+                        Elements
+                    </a>
+                    <a class="navbar-item is-active" href="#">
+                        Components
+                    </a>
+            
+                    <hr class="navbar-divider">
+                    <div class="navbar-item">
+                        <div>
+                            <p class="is-size-6-desktop">
+                                <strong>0.6.0</strong>
+                            </p>
+                            <small>
+                                <a class="bd-view-all-versions" href="/versions">View all versions</a>
+                            </small>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link " href="http://bulma.io/blog/">
+                    Blog
+                    </a>
+                    <div id="blogDropdown" class="navbar-dropdown is-boxed" data-style="width: 18rem;">
+                    
+                        <a class="navbar-item" href="/2017/10/09/roses-are-red-links-are-blue/">
+                        <div class="navbar-content">
+                            <p>
+                            <small class="has-text-link">09 Oct 2017</small>
+                            </p>
+                            <p>Roses are red – Links are blue</p>
+                        </div>
+                        </a>
+                    
+                        <a class="navbar-item" href="/2017/08/03/list-of-tags/">
+                        <div class="navbar-content">
+                            <p>
+                            <small class="has-text-link">03 Aug 2017</small>
+                            </p>
+                            <p>New feature: list of tags</p>
+                        </div>
+                        </a>
+                    
+                        <a class="navbar-item" href="/2017/08/01/bulma-bootstrap-comparison/">
+                        <div class="navbar-content">
+                            <p>
+                            <small class="has-text-link">01 Aug 2017</small>
+                            </p>
+                            <p>Bulma / Bootstrap comparison</p>
+                        </div>
+                        </a>
+                    <a class="navbar-item" href="#">
+                        More posts
+                    </a>
+                    <hr class="navbar-divider">
+                    <div class="navbar-item">
+                        <div class="navbar-content">
+                        <div class="level is-mobile">
+                            <div class="level-left">
+                            <div class="level-item">
+                                <strong>Stay up to date!</strong>
+                            </div>
+                            </div>
+                            <div class="level-right">
+                            <div class="level-item">
+                                <a class="button bd-is-rss is-small" href="#">
+                                <span class="icon is-small">
+                                    <i class="fa fa-rss"></i>
+                                </span>
+                                <span>Subscribe</span>
+                                </a>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <div class="navbar-link">
+                    More
+                    </div>
+                    <div id="moreDropdown" class="navbar-dropdown is-boxed">
+                    <a class="navbar-item " href="#">
+                        <div class="level is-mobile">
+                        <div class="level-left">
+                            <div class="level-item">
+                            <p>
+                                <strong>Extensions</strong>
+                                <br>
+                                <small>Side projects to enhance Bulma</small>
+                            </p>
+                            </div>
+                        </div>
+                        <div class="level-right">
+                            <div class="level-item">
+                            <span class="icon has-text-info">
+                                <i class="fa fa-plug"></i>
+                            </span>
+                            </div>
+                        </div>
+                        </div>
+                    </a>
+                    </div>
+                </div>
+                <a class="navbar-item " href="#">
+                    <span class="bd-emoji">⭐️</span>
+                    Expo
+                </a>
+                <a class="navbar-item " href="#">
+                    <span class="bd-emoji">❤️</span>
+                    Love
+                </a>
+            </div>
+        </div>
+        </div>
+    </nav>
+    <section class="hero is-medium">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <div class="columns">
+                    <div class="column is-half is-offset-one-quarter">
+                        <h1 class="title is-1 is-spaced">
+                            Album Example
+                        </h1>
+                        <h2 class="subtitle">
+                            Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.
+                        </h2>
+                        <a class="button is-link">Main Call to Action</a>
+                        <a class="button is-dark">Secondary Action</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="hero is-light is-bold">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns">
+                    <div class="column">
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                <img src="http://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="content">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Phasellus nec iaculis mauris.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                <img src="http://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="content">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Phasellus nec iaculis mauris.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                <img src="http://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="content">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Phasellus nec iaculis mauris.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                <img src="http://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="content">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Phasellus nec iaculis mauris.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                <img src="http://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="content">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Phasellus nec iaculis mauris.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                <img src="http://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="content">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Phasellus nec iaculis mauris.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="content has-text-centered">
+            <p>
+                <strong>Jumbo</strong> by <a href="http://twitter.com/hifiaz">HiFiaz</a>. The source code is licensed
+                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+                is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+            </p>
+            </div>
+        </div>
+    </footer>
+  </body>
+</html>
