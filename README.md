@@ -20,6 +20,6 @@ Untuk saat ini saya memulainya dengan mencontek template dasar pada bootstrap.
 
 ![Image of starter](http://assets.duende.id/album.jpg)
 
-### 1. Sign In
+### 5. Sign In
 
 ![Image of starter](http://assets.duende.id/signin.jpg)
