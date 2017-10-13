@@ -23,3 +23,7 @@ Untuk saat ini saya memulainya dengan mencontek template dasar pada bootstrap.
 ### 5. Sign In
 
 ![Image of starter](http://assets.duende.id/signin.jpg)
+
+### 5. Blog
+
+![Image of starter](http://assets.duende.id/blog.jpg)
