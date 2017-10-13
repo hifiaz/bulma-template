@@ -4,6 +4,22 @@ Merupakan halaman yang saya desain khusus untuk mempermudah kerjaan yang sederha
 
 Untuk saat ini saya memulainya dengan mencontek template dasar pada bootstrap.
 
-### Starter
+### 1. Starter
 
 ![Image of starter](http://assets.duende.id/starter.jpg)
+
+### 2. Jumbo
+
+![Image of starter](http://assets.duende.id/jumbo.jpg)
+
+### 3. Cover
+
+![Image of starter](http://assets.duende.id/cover.jpg)
+
+### 4. Album
+
+![Image of starter](http://assets.duende.id/album.jpg)
+
+### 1. Sign In
+
+![Image of starter](http://assets.duende.id/signin.jpg)
